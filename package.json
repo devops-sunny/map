@@ -1,10 +1,10 @@
 {
-  "name": "bisag_Map_geospatial",
-  "version": "1.0.0",
-  "description": "A GIS map package with Fetchar integration for fetching and visualizing geographic data.",
-  "main": "dist/bisag-map-geospatial.umd.js",
-  "module": "dist/bisag-map-geospatial.es.js",
-  "types": "dist/index.d.ts",
+ "name": "bisag-map-geospatial",
+"version": "1.0.0",
+"description": "A GIS map package with Fetchar integration for fetching and visualizing geographic data.",
+"main": "dist/bisag-map-geospatial.umd.js",
+"module": "dist/bisag-map-geospatial.es.js",
+"types": "dist/index.d.ts",
   "files": [
     "dist"
   ],

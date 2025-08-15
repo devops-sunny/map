@@ -8,7 +8,7 @@ const BisagMAP: React.FC<any> = ({ obj }) => {
   useEffect(() => {
     localStorage.setItem(
       "isProduction",
-      obj?.isProduction as unknown as string
+      obj?.isProduction as unknown as any
     );
   }, [obj?.isProduction]);
 

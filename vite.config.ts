@@ -7,17 +7,17 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'BisagMapGeospatial', 
-      fileName: (format) => `bisag-map-geospatial.${format}.js` 
+      name: 'BisagMapGeospatial',
+      fileName: (format) => `bisag-map-geospatial.${format}.js`, // matches package.json
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
       output: {
         globals: {
           react: 'React',
-          'react-dom': 'ReactDOM'
-        }
-      }
-    }
-  }
+          'react-dom': 'ReactDOM',
+        },
+      },
+    },
+  },
 });
