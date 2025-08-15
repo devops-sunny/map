@@ -1,4 +1,4 @@
-(function(Dt,I){typeof exports=="object"&&typeof module<"u"?I(exports,require("react")):typeof define=="function"&&define.amd?define(["exports","react"],I):(Dt=typeof globalThis<"u"?globalThis:Dt||self,I(Dt.MyReactLib={},Dt.React))})(this,function(Dt,I){"use strict";var KP=Object.defineProperty;var ZP=(Dt,I,li)=>I in Dt?KP(Dt,I,{enumerable:!0,configurable:!0,writable:!0,value:li}):Dt[I]=li;var un=(Dt,I,li)=>ZP(Dt,typeof I!="symbol"?I+"":I,li);var li={exports:{}},ss={};/**
+(function(Dt,I){typeof exports=="object"&&typeof module<"u"?I(exports,require("react")):typeof define=="function"&&define.amd?define(["exports","react"],I):(Dt=typeof globalThis<"u"?globalThis:Dt||self,I(Dt.BisagMapGeospatial={},Dt.React))})(this,function(Dt,I){"use strict";var KP=Object.defineProperty;var ZP=(Dt,I,li)=>I in Dt?KP(Dt,I,{enumerable:!0,configurable:!0,writable:!0,value:li}):Dt[I]=li;var un=(Dt,I,li)=>ZP(Dt,typeof I!="symbol"?I+"":I,li);var li={exports:{}},ss={};/**
  * @license React
  * react-jsx-runtime.production.min.js
  *
