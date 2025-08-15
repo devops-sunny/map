@@ -1,0 +1,116 @@
+.map {
+  width: 100%;
+  height: calc(100vh - 105px);
+  background-color: #f2f2f2;
+}
+
+.latLon {
+  position: absolute;
+  left: 20rem;
+  bottom: 2.8rem;
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-left: 0.2rem;
+  }
+}
+
+.layersLegend {
+  position: absolute;
+  left: 1rem;
+  bottom: 4.5rem;
+  border: 1px solid #1a365d;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  max-height: 200px;
+  min-width: 200px;
+  overflow-y: auto;
+}
+
+.video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  > div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.25em;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 1px 1px #2d2d2d;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+  }
+
+  div:hover {
+    span {
+      background: rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 8px #2d2d2d, 0 0 8px #2d2d2d, 0 0 8px #2d2d2d;
+      border-radius: 50%;
+    }
+  }
+}
+
+.recording::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation: blink 0.25s alternate infinite;
+  left: -5px;
+  top: -5px;
+  background: #369;
+  box-shadow: 560px 0 #369, 560px 360px #369, 0 360px #369;
+  z-index: -1;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  51%,
+  100% {
+    opacity: 1;
+  }
+}
+
+._layersLegend_1raty_18 {
+  position: absolute;
+  left: 1rem;
+  bottom: 4.5rem;
+  border: 1px solid #1a365d;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  max-height: 200px;
+  min-width: 200px;
+  overflow-y: auto;
+  background-color: white !important;
+}

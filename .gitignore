@@ -2,5 +2,4 @@ node_modules/
 built/
 .next
 package-lock.json
-/src
-src
+/
