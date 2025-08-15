@@ -1,0 +1,150 @@
+{
+  "id": "r",
+  "type": "group",
+  "label": "r",
+  "children": [
+    {
+      "id": "root",
+      "type": "group",
+      "label": "Layers",
+      "children": [
+        {
+          "id": "gyKKZbcLtg5A9taA",
+          "type": "group",
+          "label": "Administrative Boundary",
+          "children": [
+            {
+              "id": "XELF5tak6bNqABh3",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Village",
+              "visible": true,
+              "paramLayers": "VillageIndia",
+              "cql": "st_2011 = '07'",
+              "maxResolution": 256
+            },
+            {
+              "id": "h3zAz1DNrDWumDFt",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Taluka",
+              "visible": true,
+              "paramLayers": "TalukaIndia",
+              "cql": "stcode11 = '07'",
+              "maxResolution": 1024
+            },
+            {
+              "id": "qkmedTlw6t4Mw1th",
+              "url": "wms120",
+              "type": "layer",
+              "label": "District",
+              "visible": true,
+              "cql": "stcode11 = '07'",
+              "paramLayers": "DistrictIndia",
+              "maxResolution": 2048
+            },
+            {
+              "id": "NsJdMT58FzTLTp5n",
+              "url": "wms120",
+              "type": "layer",
+              "label": "State",
+              "visible": true,
+              "cql": "state_lgcode = '7'",
+              "paramLayers": "StateIndia"
+            }
+          ]
+        },
+        {
+          "id": "gyKKZbcLtg5hfdghf",
+          "type": "group",
+          "label": "Registration Property",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgchfc",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Registration Property",
+              "visible": true,
+              "paramLayers": "property_registration_master"
+            }
+          ]
+        },
+        {
+          "id": "gyKKZbcLtg5hfdghf",
+          "type": "group",
+          "label": "Birth Registration Data",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgchrf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Hospital Birth",
+              "visible": false,
+              "paramLayers": "birth_certificate_view_by_hospitals"
+            },
+            {
+              "id": "XELF5tak6bNqAagdchrf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Home Birth",
+              "visible": false,
+              "cql": "place_of_birth_id = '2'",
+              "styles": "birth_view_style_by_home",
+              "paramLayers": "birth_certificate_view_by_home"
+            },
+            {
+              "id": "XELF5tak6bNqAhjuchrf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Other Place Birth",
+              "visible": false,
+              "cql": "place_of_birth_id = '3'",
+              "styles": "birth_view_style_by_others",
+              "paramLayers": "birth_certificate_view_by_home"
+            },
+            {
+              "id": "XELF5tak6bNqDgtdchrf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Still Birth",
+              "visible": false,
+              "cql": "birth_type = 'Still Birth'",
+              "styles": "birth_view_style_by_stillbirth",
+              "paramLayers": "birth_certificate_view_by_home"
+            }
+          ]
+        },
+        {
+          "id": "gyKKZbcLtg5hfdghf",
+          "type": "group",
+          "label": "Death Registration Data",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgcyju",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Death Registration Data",
+              "visible": false,
+              "paramLayers": "death_reg_details_view"
+            }
+          ]
+        },
+        {
+          "id": "gyKKZbcLtg5hfdghf",
+          "type": "group",
+          "label": "NDDN",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgchrj",
+              "url": "wms120",
+              "type": "layer",
+              "label": "NDMC Digital Door Number Details",
+              "visible": false,
+              "paramLayers": "nddn_view"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

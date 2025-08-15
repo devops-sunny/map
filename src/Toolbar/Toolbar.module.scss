@@ -1,0 +1,29 @@
+.list {
+  max-width: 648px;
+  padding: 0.4rem 0.2rem;
+  list-style: none;
+  text-indent: 0;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(38px, 1fr));
+  gap: 0.8rem;
+}
+
+.tool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a365d;
+  color: whitesmoke;
+  padding: 0.5rem 0.6rem;
+  svg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
