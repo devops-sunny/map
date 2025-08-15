@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'MyReactLib',
-      fileName: (format) => `bisagMapgeospatial.${format}.js`
+      name: 'BisagMapGeospatial', 
+      fileName: (format) => `bisag-map-geospatial.${format}.js` 
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
