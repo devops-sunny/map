@@ -1,6 +1,6 @@
 {
  "name": "bisag-map-geospatial",
-"version": "1.0.0",
+"version": "1.0.1",
 "description": "A GIS map package with Fetchar integration for fetching and visualizing geographic data.",
 "main": "dist/index.js",
 "module": "dist/bisag-map-geospatial.es.js",
