@@ -1,0 +1,77 @@
+{
+  "name": "bisagMapgeospatial",
+  "version": "1.0.0",
+  "description": "A GIS map package with Fetchar integration for fetching and visualizing geographic data.",
+  "main": "dist/Bisag-Map.umd.cjs",
+  "module": "dist/Bisag-Map.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --project tsconfig.build.json && vite build",
+    "preview": "vite preview",
+    "publish:npm": "npm run build && npm publish --access public"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.28.0",
+    "@types/node": "^24.2.1",
+    "@types/prop-types": "^15.7.15",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "sass-embedded": "^1.90.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  },
+  "author": "Dhrupad Patel",
+  "license": "MIT",
+  "keywords": [
+    "Fetchar",
+    "gis",
+    "map",
+    "mapping",
+    "geospatial",
+    "react",
+    "typescript",
+    "vite",
+    "dhrupad",
+    "geographic data",
+    "visualization",
+    "geographic visualization",
+    "geospatial data",
+    "react map",
+    "react gis",
+    "react geographic",
+    "react geospatial",
+    "react geographic data",
+    "react geographic visualization",
+    "react geospatial data",
+    "react geospatial visualization",
+    "react geographic map",
+    "react geospatial map",
+    "react geographic visualization map",
+    "Bisag-Map"
+  ],
+  "dependencies": {
+    "@chakra-ui/react": "^3.24.2",
+    "axios": "^1.11.0",
+    "framer-motion": "^12.23.12",
+    "ky": "^1.8.2",
+    "moment": "^2.30.1",
+    "ol": "^10.6.1",
+    "ol-ext": "^4.0.33",
+    "react-complex-tree": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-toastify": "^11.0.5",
+    "scss": "^0.2.4",
+    "zustand": "^5.0.7"
+  }
+}
