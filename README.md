@@ -1,8 +1,8 @@
 
 ```
 import React from "react";
-import BisagMAP from "bisag_map_geospatial"; 
-import "bisag_map_geospatial/dist/style.css"; 
+import { BisagMAP } from "bisag-map-geospatial"; 
+import "bisag-map-geospatial/dist/style.css"; 
 
 export default function App() {
   const obj = {
